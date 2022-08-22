@@ -1,0 +1,32 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+}
+h1 {
+  font-size: 50px;
+}
+section {
+  display: flex;
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
+}
+.color-orange {
+  color: orange;
+}
+.half-width {
+  width: 40%;
+  margin-left: 2%;
+  padding-left: 5%;
+}
+.half-width img {
+  width: 100%;
+}
+.btn {
+  background-image: linear-gradient(orange, tomato);
+  border-radius: 5px;
+  padding: 10px 40px;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  margin-top: 30px;
+}
